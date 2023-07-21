@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+    background-color: rgb(122, 165, 42);
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    border: 1px solid black;
+}
+.menu{
+    width: 100%;
+    height: 5vh;
+    border: 1px solid black;
+}
+.sidemenu{
+    width: 30%;
+    height: 65vh;
+    border: 1px solid black;
+}
+.content{
+    width: 69.4%;
+    height: 65vh;
+    border: 1px solid black;
+}
+.footer{
+    width: 100%;
+    height: 15vh;
+    border: 1px solid black;
+}
+.sidemenu, .content{
+    display: inline-block;
+}
