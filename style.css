@@ -14,6 +14,11 @@
     border: 2px solid black;
     background-color: rgb(3, 141, 60);
 }
+.header:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
 .menu{
     width: 97%;
     height: 10vh;
@@ -51,8 +56,40 @@
     display: inline-block;
 }
 a{
+    border: none;
     text-decoration: none;
     color: black;
     padding: 0;
     margin: 0;
+}
+.bottom{
+    margin-top: 0;
+}
+.littel1, .littel2, .littel3{
+    background-color: rgb(190, 115, 115);
+    width: 20vw;
+    height: 15vh;
+    display: inline-block;
+    margin: auto;
+
+}
+.mediom1, .mediom2, .mediom3{
+    background-color: rgb(95, 188, 219);
+    width: 60vw;
+    height: 15vh;
+    margin: auto;
+    display: inline-block;
+    margin-left: 4vw;
+}
+.littel1, .mediom1{
+    display: inline-block;
+    margin-top: 4vh;
+}
+.littel2, .mediom2{
+    display: inline-block;
+    margin-top: 4vh;
+}
+.littel3, .mediom3{
+    display: inline-block;
+    margin-top: 4vh;
 }
