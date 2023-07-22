@@ -1,10 +1,10 @@
 *{
     text-align: center;
-    background-color: rgb(166, 221, 65);
     font-size: x-large;
     margin: 1%;
 }
 .main{
+    background-color: rgb(166, 221, 65);
     border: 2px solid black;
     
 }
@@ -49,4 +49,10 @@
 }
 .sidemenu, .content{
     display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
 }
