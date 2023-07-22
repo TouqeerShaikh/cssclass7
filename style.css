@@ -1,16 +1,17 @@
 *{
     text-align: center;
     font-size: x-large;
-    margin: 1%;
+    margin: 1.5%;
 }
 .main{
     background-color: rgb(166, 221, 65);
     border: 2px solid black;
+    margin: 0;
     
 }
 .header{
-    width: 97%;
-    height: 15vh;
+    width: 87.4vw;
+    height: 10vh;
     border: 2px solid black;
     background-color: rgb(3, 141, 60);
 }
@@ -20,37 +21,33 @@
     border: 2px solid red;
 }
 .menu{
-    width: 97%;
+    width: 87.4vw;
     height: 10vh;
     border: 2px solid black;
     background-color: lightblue;
-}
-.center{
-    width: 99.7%;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
 }
 .sidemenu{
-    width: 30%;
-    height: 60vh;
+    width: 26vw;
+    height: 50vh;
     border: 2px solid black;
     background-color: rgb(70, 70, 240);
-    margin-left: 0%;
+    margin-left: -1%;
     margin-right: 0%;
 }
 .content{
-    width: 65.5%;
-    height: 60vh;
-    margin-right: 0;
-    margin-right: 0;
+    width: 58.5vw;
+    height: 50vh;
+    margin-right: 1.5%;
     border: 2px solid black;
     background-color: blueviolet;
 }
 .footer{
-    width: 97%;
-    height: 15vh;
+    width: 87.4vw;
+    height: 10vh;
     border: 2px solid black;
     background-color: rgb(218, 112, 51);
+    margin-top: 0;
 }
 .sidemenu, .content{
     display: inline-block;
