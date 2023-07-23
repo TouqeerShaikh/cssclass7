@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout #2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 1vh 1vw;
+            color: rgb(19, 192, 19);
+            text-align: center;
+            justify-self: center;
+            font-size: 1em;
+        }
+
+        div {
+            border: 0.4dvh solid black;
+        }
+
+        header,
+        footer {
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flexbox;
+        }
+
+        #header,
+        #footer,
+        .novigation {
+            width: 90vw;
+            padding: 0vh 0vw;
+            height: 10vh;
+        }
+        #header:hover{
+            background-color: rgb(247, 87, 12);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <header>
+            <a href="./index.html"><div id="header">Header</div></a>
+        </header>
+        <div class="novigation">Navigation Menu</div>
+        <div class="center">
+            <div class="contentleft">Content</div>
+            <div class="maincontent">Main Content</div>
+            <div class="contentright">Content</div>
+        </div>
+        <footer>
+            <div id="footer">Footer</div>
+        </footer>
+    </div>
+</body>
+
+</html>

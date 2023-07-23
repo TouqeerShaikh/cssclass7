@@ -90,3 +90,30 @@ a{
     display: inline-block;
     margin-top: 4vh;
 }
+#footer{
+    margin-top: 0;
+}
+.center{
+    border: none;
+    padding: 0vh 0vw;
+}
+.contentleft, .contentright, .maincontent{
+    display: inline-block;
+    margin: 0;
+}
+.contentleft, .contentright{
+    width: 19vw;
+    min-width: 2vw;
+    height: 55vh;
+}
+.contentleft{
+    margin-left: -1.4vw;
+}
+.contentright{
+    margin-right: -0vw;
+}
+.maincontent{
+    width: 50.5vw;
+    min-width: 10vw;
+    height: 55vh;
+}
